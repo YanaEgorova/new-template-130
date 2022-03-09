@@ -1,0 +1,24 @@
+:root {
+    --main-bg-color: #fff;
+    --sub-bg-color: #000;
+    --sub-text-color: #fff;
+    --inactive: rgb(161, 161, 161);
+    --accent-color: red;
+    --checkbox-color: #6699ff;
+
+    --main-text-color: #000;
+    --main-text: #515050;
+
+    
+    --first-brand-color: #edf9f9;
+    --second-brand-color: #fcd1c3;
+    --third-brand-color: #ebebeb;
+    --fourth-brand-color:#1fe6e6;
+
+
+    --main-font: 'Lato';
+    --title-font: 'Lato Regular';
+    --main-title-font: 'Playfair Display';
+    
+    font-size: 62.5%;
+}

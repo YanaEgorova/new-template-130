@@ -1,0 +1,43 @@
+.hero__wrapper-main {
+    background-image: url('../img/bg2.jpg');
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+}
+.hero {
+    padding: 20rem 0 15rem;
+}
+
+
+@media screen and (min-width: 1024px)  {
+  .hero__wrapper {
+    position: relative;
+}
+.hero__wrapper::before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 80%;
+    height: 100%;
+    background-image: url('../img/bg.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: contain;
+    opacity: .9;
+}
+.hero {
+    padding: 30rem 0 5rem 5rem;
+    text-align: left;
+    position: relative;
+}
+.hero .text,
+.hero .btn {
+    margin-left: 0;
+}
+}
+@media screen and (min-width: 1440px)  {
+  .hero__wrapper::before {
+      width: 60%;
+      height: 100%;
+  }
+  }
